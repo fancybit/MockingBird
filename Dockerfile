@@ -9,3 +9,4 @@ RUN yum install -y python3.8 git llvm gcc python38-devel
 RUN git clone https://github.com/babysor/MockingBird.git
 RUN pip3 install -r ./MockingBird/requirements.txt
 
+ENTRYPOINT python3 web.py
