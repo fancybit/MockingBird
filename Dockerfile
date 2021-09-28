@@ -8,4 +8,4 @@ RUN yum makecache
 RUN yum install -y python3 git
 RUN git clone https://gitee.com/fancybit/MockingBird.git
 
-RUN pip3 install -i https://pypi.mirrors.ustc.edu.cn/simple -r ./MockingBird/requirements.txt
+RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r ./MockingBird/requirements.txt
